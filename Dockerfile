@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM python:alpine
 RUN apk add --no-cache git && \
     apk add --no-cache openssh && \
     apk add --no-cache jq && \
